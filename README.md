@@ -4,13 +4,13 @@ Bu proje, üç büyük dil modelinin ChatGPT, Gemini, DeepSeek karakter yapılar
 
 ## 🛠️ Methodology (Metodoloji)
 
-Data Storage: Sorular ve yanıtlar bir SQLite veritabanında yapılandırılmıştır.
+* Data Storage: Sorular ve yanıtlar bir SQLite veritabanında yapılandırılmıştır.
 
-Preprocessing: Zemberek kullanılarak morfolojik analiz ve metin temizliği yapılmıştır.
+* Preprocessing: Zemberek kullanılarak morfolojik analiz ve metin temizliği yapılmıştır.
 
-Sentiment Engine: XLM-RoBERTa Transformer modeli ile duygu skorları (0.0 - 1.0) hesaplanmıştır.
+* Sentiment Engine: XLM-RoBERTa Transformer modeli ile duygu skorları (0.0 - 1.0) hesaplanmıştır.
 
-Network Analysis: NetworkX ile modellerin kavramsal ilişkileri ve karakteristik mesafeleri haritalandırılmıştır.
+* Network Analysis: NetworkX ile modellerin kavramsal ilişkileri ve karakteristik mesafeleri haritalandırılmıştır.
 
 
 
@@ -76,37 +76,37 @@ Key Insight: Kariyer tavsiyelerinde modeller pratik ve eylem odaklı bir dil kur
 
 ## 📦 Requirements
 
-import sqlite3
-import re
-import string
-import unicodedata
-import itertools
-from collections import Counter 
-from itertools import chain
+* import sqlite3
+* import re
+* import string
+* import unicodedata
+* import itertools
+* from collections import Counter 
+* from itertools import chain
 
 # Veri Analizi ve Görselleştirme
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import stylecloud 
+* import pandas as pd
+* import numpy as np
+* import matplotlib.pyplot as plt
+* import seaborn as sns
+* import stylecloud 
 
 # Görüntü İşleme
 
-import PIL.ImageDraw 
+* import PIL.ImageDraw 
 
 # Doğal Dil İşleme (NLP)
 
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize, sent_tokenize
-from snowballstemmer import TurkishStemmer, stemmer
-from zemberek import TurkishMorphology
+* import nltk
+* from nltk.corpus import stopwords
+* from nltk.tokenize import word_tokenize, sent_tokenize
+* from snowballstemmer import TurkishStemmer, stemmer
+* from zemberek import TurkishMorphology
 
 # Ağ Analizi
 
-import networkx as nx
+* import networkx as nx
 
 ## 📂 Project Structure
 
