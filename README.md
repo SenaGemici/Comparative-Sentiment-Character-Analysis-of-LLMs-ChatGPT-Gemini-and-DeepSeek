@@ -76,7 +76,6 @@ Key Insight: Kariyer tavsiyelerinde modeller pratik ve eylem odaklı bir dil kur
 
 ## 📦 Requirements
 
-Bu projeyi yerelinizde çalıştırmak için aşağıdaki kütüphanelerin yüklü olması gerekir:
 import sqlite3
 import re
 import string
