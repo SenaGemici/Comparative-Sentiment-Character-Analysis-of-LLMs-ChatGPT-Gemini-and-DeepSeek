@@ -1,8 +1,8 @@
-🤖 LLM Character Analysis: ChatGPT, Gemini & DeepSeek
+### 🤖 LLM Character Analysis: ChatGPT, Gemini & DeepSeek
 
 Bu proje, üç büyük dil modelinin ChatGPT, Gemini, DeepSeek karakter yapılarını ve duygusal tonlarını 90 farklı nitel veri üzerinden analiz eder.
 
-🛠️ Methodology (Metodoloji)
+## 🛠️ Methodology (Metodoloji)
 
 Data Storage: Sorular ve yanıtlar bir SQLite veritabanında yapılandırılmıştır.
 
@@ -12,7 +12,6 @@ Sentiment Engine: XLM-RoBERTa Transformer modeli ile duygu skorları (0.0 - 1.0)
 
 Network Analysis: NetworkX ile modellerin kavramsal ilişkileri ve karakteristik mesafeleri haritalandırılmıştır.
 
-📊 Visual Analysis (Görsel Analizler)
 
 
 ### 📊 1. Karakter Analizi (Radar Chart)
