@@ -1,6 +1,8 @@
 ### 🤖 LLM Character Analysis: ChatGPT, Gemini & DeepSeek
 
-Bu proje, üç büyük dil modelinin ChatGPT, Gemini, DeepSeek karakter yapılarını ve duygusal tonlarını 90 farklı nitel veri üzerinden analiz eder.
+* TR: Bu proje, üç büyük dil modelinin ChatGPT, Gemini, DeepSeek karakter yapılarını ve duygusal tonlarını 90 farklı nitel veri üzerinden analiz eder.
+
+* EN: A comparative study of ChatGPT, Gemini, and DeepSeek using NLP, Sentiment Analysis (RoBERTa), and Semantic Network Analysis across 90 qualitative data points.
 
 ## 🛠️ Methodology (Metodoloji)
 
@@ -20,9 +22,9 @@ Bu proje, üç büyük dil modelinin ChatGPT, Gemini, DeepSeek karakter yapılar
 
 Analiz:
 
-TR: Radar grafiği, ChatGPT'nin tüm kategorilerde en yüksek pozitiflik skoruna (0.67) sahip olduğunu ve en "destekleyici" model rolünü üstlendiğini göstermektedir. Deepseek ise felsefi konularda (0.48) merkeze en yakın duran model olarak daha mesafeli ve nötr bir tavır sergilemektedir.
+* TR: Radar grafiği, ChatGPT'nin tüm kategorilerde en yüksek pozitiflik skoruna (0.67) sahip olduğunu ve en "destekleyici" model rolünü üstlendiğini göstermektedir. Deepseek ise felsefi konularda (0.48) merkeze en yakın duran model olarak daha mesafeli ve nötr bir tavır sergilemektedir.
 
-EN: The radar chart shows that ChatGPT has the highest positivity score (0.67) in all categories, acting as the most "supportive" model. Deepseek, being the closest to the center in philosophical topics (0.48), exhibits a more detached and neutral stance.
+* EN: The radar chart shows that ChatGPT has the highest positivity score (0.67) in all categories, acting as the most "supportive" model. Deepseek, being the closest to the center in philosophical topics (0.48), exhibits a more detached and neutral stance.
 
 ### 🌡️ 2. Duygu Yoğunluğu (Heatmap)
 
@@ -30,9 +32,9 @@ EN: The radar chart shows that ChatGPT has the highest positivity score (0.67) i
 
 Analiz:
 
-TR: Isı haritası analizi, her üç modelin de "Duygusal Motivasyon" kategorisinde en yoğun pozitif tonlamayı kullandığını kanıtlamaktadır.
+* TR: Isı haritası analizi, her üç modelin de "Duygusal Motivasyon" kategorisinde en yoğun pozitif tonlamayı kullandığını kanıtlamaktadır.
 
-EN: The heatmap analysis proves that all three models use the most intense positive tone in the "Emotional Motivation" category.
+* EN: The heatmap analysis proves that all three models use the most intense positive tone in the "Emotional Motivation" category.
 
 ### 📏 3. Karakteristik Mesafe (Farklılık Analizi)
 
@@ -40,39 +42,39 @@ EN: The heatmap analysis proves that all three models use the most intense posit
 
 Analiz:
 
-TR: Öklid mesafesi kullanılarak yapılan farklılık analizinde, ChatGPT ve Deepseek arasındaki "Fark Skoru: 100" olarak belirlenmiştir. Bu durum, bu iki modelin karakter bazında projedeki en uzak kutuplar olduğunu bilimsel olarak doğrular.
+* TR: Öklid mesafesi kullanılarak yapılan farklılık analizinde, ChatGPT ve Deepseek arasındaki "Fark Skoru: 100" olarak belirlenmiştir. Bu durum, bu iki modelin karakter bazında projedeki en uzak kutuplar olduğunu bilimsel olarak doğrular.
 
-EN: In the divergence analysis using Euclidean distance, the "Difference Score: 100" was set between ChatGPT and Deepseek. This scientifically confirms that these two models are the most distant poles in terms of character in this project.
+* EN: In the divergence analysis using Euclidean distance, the "Difference Score: 100" was set between ChatGPT and Deepseek. This scientifically confirms that these two models are the most distant poles in terms of character in this project.
 
 ### ☁️ 4. Kelime Bulutları (Word Clouds)
 
 ![Duygusal Kelime Bulutu](./visual_outputs/duygusalworldcloud.png)
 
-TR: "Umut", "destek", "süreç" ve "duygu" kelimeleri bulutun kalbinde yer alır. Modellerin tamamı "küçük adımlar" ve "ilerleme" gibi teşvik edici kavramları ortak payda olarak kullanmaktadır.
+* TR: "Umut", "destek", "süreç" ve "duygu" kelimeleri bulutun kalbinde yer alır. Modellerin tamamı "küçük adımlar" ve "ilerleme" gibi teşvik edici kavramları ortak payda olarak kullanmaktadır.
 
-EN: "Hope," "support," "process," and "emotion" lie at the heart of the cloud. All models use encouraging concepts such as "small steps" and "progress" as a common ground.
+* EN: "Hope," "support," "process," and "emotion" lie at the heart of the cloud. All models use encouraging concepts such as "small steps" and "progress" as a common ground.
 
-Key Insight: Bu buluttaki kelime yoğunluğu, modellerin RoBERTa skorlarındaki yüksek pozitiflik oranlarını (0.60+) ve destekleyici karakterlerini görsel olarak kanıtlar.
+* Key Insight: Bu buluttaki kelime yoğunluğu, modellerin RoBERTa skorlarındaki yüksek pozitiflik oranlarını (0.60+) ve destekleyici karakterlerini görsel olarak kanıtlar.
 
 ![Felsefi Kelime Bulutu](./visual_outputs/felsefiworldcloud.png)
 
 Felsefi analizde modellerin en soyut ve derinlikli kelimeleri seçtiği görülmektedir.
 
-TR: Bu kategoride "anlam", "insan", "etik" ve "varlık" kelimeleri merkezi bir düğüm oluşturur. ChatGPT'nin "değerler" ve "yaşam" kelimelerine odaklandığı, DeepSeek'in ise "mantık" ve "rasyonalite" gibi daha analitik kavramlar etrafında yoğunlaştığı gözlemlenmiştir.
+* TR: Bu kategoride "anlam", "insan", "etik" ve "varlık" kelimeleri merkezi bir düğüm oluşturur. ChatGPT'nin "değerler" ve "yaşam" kelimelerine odaklandığı, DeepSeek'in ise "mantık" ve "rasyonalite" gibi daha analitik kavramlar etrafında yoğunlaştığı gözlemlenmiştir.
 
-EN: In this category, words like "meaning," "human," "ethics," and "existence" form a central node. It was observed that ChatGPT focuses on "values" and "life," whereas DeepSeek concentrates on more analytical concepts such as "logic" and "rationality."
+* EN: In this category, words like "meaning," "human," "ethics," and "existence" form a central node. It was observed that ChatGPT focuses on "values" and "life," whereas DeepSeek concentrates on more analytical concepts such as "logic" and "rationality."
 
-Key Insight: Modeller felsefi sorgulamalarda insan merkezli bir dil kullanırken, DeepSeek'in kelime seçimleri onun daha mesafeli ve objektif karakterini desteklemektedir.
+* Key Insight: Modeller felsefi sorgulamalarda insan merkezli bir dil kullanırken, DeepSeek'in kelime seçimleri onun daha mesafeli ve objektif karakterini desteklemektedir.
 
 ![Kariyer Kelime Bulutu](./visual_outputs/kariyerworldcloud.png)
 
 Kariyerle ilgili bulutlar, modellerin iş dünyasına bakışındaki profesyonellik tonunu yansıtır.
 
-TR: "Yetenek", "hedef", "gelişim" ve "strateji" kelimeleri bu bulutun en büyük bileşenleridir. ChatGPT'nin kelime bulutunda "motivasyon" ve "başarı" kelimeleri baskınken, Gemini'nin "denge" ve "süreç" kelimelerini daha sık kullandığı tespit edilmiştir.
+* TR: "Yetenek", "hedef", "gelişim" ve "strateji" kelimeleri bu bulutun en büyük bileşenleridir. ChatGPT'nin kelime bulutunda "motivasyon" ve "başarı" kelimeleri baskınken, Gemini'nin "denge" ve "süreç" kelimelerini daha sık kullandığı tespit edilmiştir.
 
-EN: "Skill," "goal," "development," and "strategy" are the major components of this cloud. While "motivation" and "success" dominate ChatGPT's word cloud, it was found that Gemini uses "balance" and "process" more frequently.
+* EN: "Skill," "goal," "development," and "strategy" are the major components of this cloud. While "motivation" and "success" dominate ChatGPT's word cloud, it was found that Gemini uses "balance" and "process" more frequently.
 
-Key Insight: Kariyer tavsiyelerinde modeller pratik ve eylem odaklı bir dil kurarak, kullanıcılara somut adımlar (plan, hedef, disiplin) önermektedir.
+* Key Insight: Kariyer tavsiyelerinde modeller pratik ve eylem odaklı bir dil kurarak, kullanıcılara somut adımlar (plan, hedef, disiplin) önermektedir.
 
 ## 📦 Requirements
 
