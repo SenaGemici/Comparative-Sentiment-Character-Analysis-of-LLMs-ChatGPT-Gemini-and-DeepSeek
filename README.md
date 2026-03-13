@@ -76,7 +76,7 @@ Kariyerle ilgili bulutlar, modellerin iş dünyasına bakışındaki profesyonel
 
 * Key Insight: Kariyer tavsiyelerinde modeller pratik ve eylem odaklı bir dil kurarak, kullanıcılara somut adımlar (plan, hedef, disiplin) önermektedir.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Analiz edilen üç farklı kelime bulutu; modellerin karakter analizlerinde 'motivasyonel' (küçük adımlar, hedef), 'felsefi' (insan, anlam, karmaşık) ve 'profesyonel' (beceri, gelişim, disiplin) olmak üzere üç temel boyutta tutarlı bir söylem geliştirdiğini ortaya koymaktadır.
+* Analiz edilen üç farklı kelime bulutu; modellerin karakter analizlerinde "motivasyonel" (küçük adımlar, hedef), "felsefi" (insan, anlam, karmaşık) ve "profesyonel" (beceri, gelişim, disiplin) olmak üzere üç temel boyutta tutarlı bir söylem geliştirdiğini ortaya koymaktadır.
 ## 📦 Requirements
 
 * import sqlite3
