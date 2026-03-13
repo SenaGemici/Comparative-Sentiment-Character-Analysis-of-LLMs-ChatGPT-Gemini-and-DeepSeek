@@ -50,9 +50,9 @@ Analiz:
 
 ![Duygusal Kelime Bulutu](./visual_outputs/duygusalworldcloud.png)
 
-* TR: "Umut", "destek", "süreç" ve "duygu" kelimeleri bulutun kalbinde yer alır. Modellerin tamamı "küçük adımlar" ve "ilerleme" gibi teşvik edici kavramları ortak payda olarak kullanmaktadır.
+* Kelime bulutunda "Hedef", "Başarı" ve "Kendi" gibi kavramlar merkezi bir ağırlığa sahiptir. Bununla birlikte, modellerin tamamı "küçük adımlar", "ilerleme" ve "süreç" gibi teşvik edici kavramları ortak bir paydada   buluşturarak motivasyonel bir dil sergilemektedir.
 
-* EN: "Hope," "support," "process," and "emotion" lie at the heart of the cloud. All models use encouraging concepts such as "small steps" and "progress" as a common ground.
+* EN: In the word cloud, concepts such as "Target" (Hedef), "Success" (Başarı), and "Self" (Kendi) hold central importance due to their scale. Furthermore, all models establish a common ground by utilizing encouraging terms like "small steps", "progress", and "process", reflecting a supportive and motivational narrative.
 
 * Key Insight: Bu buluttaki kelime yoğunluğu, modellerin RoBERTa skorlarındaki yüksek pozitiflik oranlarını (0.60+) ve destekleyici karakterlerini görsel olarak kanıtlar.
 
@@ -60,7 +60,7 @@ Analiz:
 
 Felsefi analizde modellerin en soyut ve derinlikli kelimeleri seçtiği görülmektedir.
 
-* TR: Bu kategoride "anlam", "insan", "etik" ve "varlık" kelimeleri merkezi bir düğüm oluşturur. ChatGPT'nin "değerler" ve "yaşam" kelimelerine odaklandığı, DeepSeek'in ise "mantık" ve "rasyonalite" gibi daha analitik kavramlar etrafında yoğunlaştığı gözlemlenmiştir.
+* TR: Görselde "İnsan", "Hayat", "Anlam" ve "Karmaşık" kavramlarının merkeze alındığı dikkat çekmektedir. Analizlerde "felsefe", "etik", "gerçek" ve "zeka" gibi derinlikli temalar üzerinden bir çerçeve çizildiği ve insani deneyimi anlamlandırmaya yönelik bütüncül bir yaklaşım sergiledikleri anlaşılmaktadır.
 
 * EN: In this category, words like "meaning," "human," "ethics," and "existence" form a central node. It was observed that ChatGPT focuses on "values" and "life," whereas DeepSeek concentrates on more analytical concepts such as "logic" and "rationality."
 
@@ -70,12 +70,13 @@ Felsefi analizde modellerin en soyut ve derinlikli kelimeleri seçtiği görülm
 
 Kariyerle ilgili bulutlar, modellerin iş dünyasına bakışındaki profesyonellik tonunu yansıtır.
 
-* TR: "Yetenek", "hedef", "gelişim" ve "strateji" kelimeleri bu bulutun en büyük bileşenleridir. ChatGPT'nin kelime bulutunda "motivasyon" ve "başarı" kelimeleri baskınken, Gemini'nin "denge" ve "süreç" kelimelerini daha sık kullandığı tespit edilmiştir.
+* TR: Kariyer odağındaki kelime bulutu incelendiğinde, "Geliştirmek", "Beceri", "Öğrenmek" ve "Zaman" kavramlarının baskın olduğu görülmektedir. Modellerin iş dünyasına bakışında "disiplin", "dikkat", "başarı" ve "iletişim" gibi yetkinlikleri merkeze alarak profesyonel bir ton sergiledikleri anlaşılmaktadır.
 
 * EN: "Skill," "goal," "development," and "strategy" are the major components of this cloud. While "motivation" and "success" dominate ChatGPT's word cloud, it was found that Gemini uses "balance" and "process" more frequently.
 
 * Key Insight: Kariyer tavsiyelerinde modeller pratik ve eylem odaklı bir dil kurarak, kullanıcılara somut adımlar (plan, hedef, disiplin) önermektedir.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Analiz edilen üç farklı kelime bulutu; modellerin karakter analizlerinde 'motivasyonel' (küçük adımlar, hedef), 'felsefi' (insan, anlam, karmaşık) ve 'profesyonel' (beceri, gelişim, disiplin) olmak üzere üç temel boyutta tutarlı bir söylem geliştirdiğini ortaya koymaktadır.
 ## 📦 Requirements
 
 * import sqlite3
